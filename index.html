@@ -1,0 +1,152 @@
+<html>
+<head>
+<link rel="stylesheet" href="css.css">
+</head>
+<style>
+    body{
+        background: #3878A6;
+    }
+    #outer {
+        width: 100%;
+        background: #46AAF2;
+        position: relative;
+        height: 200px;
+    }
+    .inner{
+        width: 25%;
+        background: #F2615E;
+        position: absolute;
+        top: 25%;
+        height: 100px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    #inner1 {
+        left: 5%;
+    }
+    #inner2 {
+        right: 5%;
+    }
+    #eyes{
+        width: 30%;
+        background: #A63230;
+        position: absolute;
+        left: 25%;
+        top: 25%;
+        height: 50px;
+        transition: all .2s ease
+
+    }
+    #mouth{
+        border-radius: 20px 20px 20px 20px;
+        width: 60%;
+        background: #F2F25E;
+        position: relative;
+        height: 200px;
+        left: 20%;
+        top: 40%;
+    }
+    #teeth{
+        border-radius: 0px 0px 20px 20px;
+        display:inline-block;
+        left: 40%;
+        width: 10%;
+        background: #DBF2F4;
+        position: relative;
+        height: 120px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        transition: all .6s ease
+    }
+    #teeth:hover{
+        top: 0%;
+        border-radius: 0px 0px 360px 360px;
+        display:inline-block;
+        left: 40%;
+        width: 10%;
+        background: #DBF2F4;
+        position: relative;
+        height: 120px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    #teeth:active{
+        top: 0%;
+        border-radius: 0px 0px 360px 360px;
+        display:inline-block;
+        left: 40%;
+        width: 10%;
+        background: rgb(189,189,73);
+        background: radial-gradient(circle, rgba(189,189,73,1) 0%, rgba(242,242,94,1) 100%);
+        position: relative;
+        height: 120px;
+        box-shadow: 0 0 0px rgba(0,0,0,0.0);
+    }
+
+    #tongue{
+        border-radius: 0px 0px 30px 30px;
+
+        top: 10%;
+        left: 45%;
+        width: 20%;
+        background: rgb(242,242,94);
+        background: linear-gradient(180deg, rgba(242,242,94,1) 1%, rgba(245,105,143,1) 25%);
+        position: relative;
+        height: 200px;
+    }
+    #tongue:hover {
+        border-radius: 0px 0px 30px 30px;
+
+        top: 10%;
+        left: 45%;
+        width: 20%;
+        background: rgb(242,242,94);
+        background: linear-gradient(180deg, rgba(242,242,94,1) 1%, rgba(245,105,143,1) 25%);
+        position: relative;
+        height: 100px;
+        transition: all .9s ease
+    }
+    #tongue:active{
+        border-radius: 0px 0px 30px 30px;
+
+        top: 20%;
+        left: 45%;
+        width: 20%;
+        background: rgb(242,242,94);
+        background: linear-gradient(180deg, rgba(242,242,94,1) 1%, rgba(245,105,143,1) 25%);
+        position: relative;
+        height: 100px;
+        transition: all .1s ease
+    }
+
+    #eyes:hover{
+        width: 30%;
+        background: #F5DB29;
+        position: absolute;
+        left: 25%;
+        top: 25%;
+        height: 50px;
+
+    }
+
+    #eyes:active{
+        width: 30%;
+        background: #F5DB29;
+        position: absolute;
+        left: 25%;
+        top: 5%;
+        height: 90px;
+
+    }
+</style>
+<div id="outer">
+    <div class="inner", id="inner1"><div id="eyes"></div></div>
+    <div class="inner", id="inner2"><div id="eyes"></div></div>
+</div>
+<div id="mouth">
+    <div id="teeth", id="tooth1"></div>
+    <div id="teeth", id="tooth2"></div>
+    <div id="teeth", id="tooth3"></div>
+    <div id="teeth", id="tooth4"></div>
+    <div id="tongue"> </div>
+
+</div>
+</body>
+</html>
