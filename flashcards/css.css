@@ -1,0 +1,63 @@
+body {
+    font-family: 'Zen Dots', cursive;
+    background-image: url("world.png");
+}
+
+.quiz-area {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.title {
+    text-align: center;
+    color: #2b2b2b;
+    font-size: 2em;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transition: all .5s linear;
+    transform-style: preserve-3d;
+
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+    color: #f28001;
+    font-size: 1.5em;
+    border-radius: 10%;
+}
+
+.card-front {
+    background-color: #f6ede4;
+    z-index: 3;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    background-color: #e57400;
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
+
+.cards {
+    width: 730px;
+    height: 730px;
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: space-around;
+    perspective: 1000px;
+}
