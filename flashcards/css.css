@@ -37,12 +37,14 @@ body {
 }
 
 .card-front {
+    color: #e57400;
     background-color: #f6ede4;
     z-index: 3;
     backface-visibility: hidden;
 }
 
 .card-back {
+    color: #f6ede4;
     background-color: #e57400;
     transform: rotateY(180deg);
     z-index: 1;
