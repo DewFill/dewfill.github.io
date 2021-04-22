@@ -1,0 +1,23 @@
+footer{
+display: flex;
+}
+.footer-img, .footer-text{
+    flex: 1;
+    height: 500px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.footer-img{
+    background-image: url("../img/7.footer/bg3.png");
+}
+
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.footer-text div:nth-child(1){
+    font-size: 2em;
+}

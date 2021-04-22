@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap" rel="stylesheet">
+
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/1.slider-and-company-name.css" rel="stylesheet">
+    <link href="css/2.menu-and-progress-bar.css" rel="stylesheet">
+    <link href="css/3.advantages.css" rel="stylesheet">
+    <link href="css/4.brand-new-menu-items.css" rel="stylesheet">
+    <link href="css/5.reviews.css" rel="stylesheet">
+    <link href="css/6.delivery.css" rel="stylesheet">
+    <link href="css/7.footer.css" rel="stylesheet">
+
+    <script src="js/2.progress-bar.js"></script>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/5161c5d8c4.js"></script>
+
+
+</head>
+<body>
+
+<main>
+    <div class="hero">
+        <div class="company_name">
+            <div class="company_name_text">EcoCoffee</div>
+        </div>
+        <div class="wrapper" id="wrapper">
+            <input checked class="radioJS" id="slide1" name="point" type="radio">
+            <input class="radioJS" id="slide2" name="point" type="radio">
+            <input class="radioJS" id="slide3" name="point" type="radio">
+            <input class="radioJS" id="slide4" name="point" type="radio">
+            <input class="radioJS" id="slide5" name="point" type="radio">
+            <div class="slider">
+                <div class="slides slide1"></div>
+                <div class="slides slide2"></div>
+                <div class="slides slide3"></div>
+                <div class="slides slide4"></div>
+                <div class="slides slide5"></div>
+            </div>
+            <div class="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+                <label for="slide5"></label>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header_menu">
+            <div class="header_menu_button"><a class="header_menu_button_a" href="#advantages">Преимущества</a></div>
+            <div class="header_menu_button"><a class="header_menu_button_a" href="#brand-new-menu-items">Новинки</a>
+            </div>
+            <div class="header_menu_button"><a class="header_menu_button_a" href="#reviews">Отзывы</a></div>
+            <div class="header_menu_button"><a class="header_menu_button_a" href="#delivery">Доставка</a></div>
+            <!--        <div class="header_menu_button"><a class="header_menu_button_a" href="#">Кнопка 5</a></div>-->
+            <div class="header_menu_button icons">
+                <div><a class="header_menu_button_a" href="#location"><i class="fas fa-map-marker-alt"></i></a></div>
+                <div><a class="header_menu_button_a" ><i class="fas fa-user-alt"></i></a></div>
+                <div><a class="header_menu_button_a" ><i class="fas fa-shopping-bag"></i></a></div>
+                <div><a class="header_menu_button_a" ><i class="fas fa-search"></i></a></div>
+            </div>
+        </div>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+    </div>
+
+    <div class="advantages-container" id="advantages">
+
+        <div class="OUTLINE-border-container">
+            <div class="OUTLINE-border">
+                <div class="OUTLINE-border-top"></div>
+                <div class="OUTLINE-center">
+
+                    <p class="OUTLINE-p">Мы лучше конкурентов</p>
+                    <div class="advantages">
+                        <div class="advantage" id="a1">
+                            <div class="advantage-img-and-text">
+                                <div class="advantage-img"></div>
+                                <div class="advantage-text-container">
+                                    <div>Carbon</div>
+                                </div>
+                            </div>
+                            <div class="advantage-main-text">
+                                <div class="advantage-main-text-big">
+                                    <div>16 млн тонн</div>
+                                </div>
+                                <div class="advantage-main-text-small">
+                                    <div>парниковых газов не было выброшено в 2020 году по всей цепочке создания
+                                        стоимости
+                                        EcoCoffee, включая изменение землепользования.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="advantage" id="a2">
+                            <div class="advantage-img-and-text">
+                                <div class="advantage-img"></div>
+                                <div class="advantage-text-container">
+                                    <div>Water</div>
+                                </div>
+                            </div>
+                            <div class="advantage-main-text">
+                                <div class="advantage-main-text-big">
+                                    <div>1 миллиард кубометров</div>
+                                </div>
+                                <div class="advantage-main-text-small">
+                                    <div>переработанной воды было забрано по всей цепочке создания стоимости EcoCoffee.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="advantage" id="a3">
+                            <div class="advantage-img-and-text">
+                                <div class="advantage-img"></div>
+                                <div class="advantage-text-container">
+                                    <div>Waste</div>
+                                </div>
+                            </div>
+                            <div class="advantage-main-text">
+                                <div class="advantage-main-text-big">
+                                    <div>868 килотонн</div>
+                                </div>
+                                <div class="advantage-main-text-small">
+                                    <div>отходов не было выброшено по всей производственно-сбытовой цепочке. Отходы
+                                        добавили
+                                        бы 1,3 миллиона тонн выбросов углерода к базовому углеродному следу EcoCoffee.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="OUTLINE-border-bottom"></div>
+            </div>
+        </div>
+
+
+    </div>                                              <!--THE ENDING OF ADVANTAGES-->
+
+    <div class="OUTLINE-border-container" id="brand-new-menu-items">
+        <div class="OUTLINE-border" id="backgroundJS">
+            <div class="OUTLINE-border-top"></div>
+            <div class="OUTLINE-center">
+                <div class="quiz-area">
+                    <div class="brand-new-menu-items-title"><h1>Отгадайте, как выглядят наши новинки</h1></div>
+                    <div class="cards" id="cards">
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="card-front">
+                                    <div>Напиток дракона</div>
+                                </div>
+                                <div class="card-back"></div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="card-front">
+                                    <div>
+                                        Южный веган врап
+                                    </div>
+                                </div>
+                                <div class="card-back"></div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="card-front">
+                                    <div>Кофе без кофеина</div>
+                                </div>
+                                <div class="card-back"></div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="card-front">
+                                    <div>Йогурт с клубникой и зернами</div>
+                                </div>
+                                <div class="card-back"></div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="card-front">
+                                    <div>Холодное пиво с медом и молоком</div>
+                                </div>
+                                <div class="card-back"></div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="card-front">
+                                    <div>
+                                        Панини с черри и сыром
+                                    </div>
+                                </div>
+                                <div class="card-back"></div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="card-front">
+                                    <div>Лимонад на чае со льдом</div>
+                                </div>
+                                <div class="card-back"></div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="card-front">
+                                    <div>Бублик с корицей и изюмом</div>
+                                </div>
+                                <div class="card-back"></div>
+                            </div>
+                        </div>
+                        <div class="card-container">
+                            <div class="card">
+                                <div class="card-front">
+                                    <div>Ванильный напиток с печеньем</div>
+                                </div>
+                                <div class="card-back"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="OUTLINE-border-bottom"></div>
+        </div>
+    </div>                                              <!--BRAND NEW MENU ITEMS ENDING-->
+
+
+    <div class="OUTLINE-border-container" id="reviews">
+        <div class="OUTLINE-border" id="backgroundJSReviews">
+            <div class="OUTLINE-border-top"></div>
+            <div class="OUTLINE-center">
+
+
+                <div class="reviews">
+
+                    <p class="OUTLINE-p">Честные отзывы посетителей</p>
+                    <div class="reviews-block">
+                        <div class="review-content">
+                            <div class="review-text">Мы с друзьями часто ходим в это кафе. Нравится то, что не очень
+                                много
+                                народа - есть чем дышать. И обстановка кафе очень приятная и уютная. Еда и напитки
+                                вкусные,
+                                порции большие, подача оригинальная.
+                            </div>
+                            <div class="review-author-and-rate">
+                                <div class="review-author">Виталий В</div>
+                                <div class="review-rate">
+                                    <div>★★★★☆</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-content">
+                            <div class="review-text">ЭКО кафе находится недалеко от моего дома. Часто там бываю, всегда
+                                хорошее обслуживание, приятная музыка, чисто и вкусно. Недавно попробовала суп пюре из
+                                тыквы
+                                с кокосовым молоком, - только из-за него стоит туда сходить хотя бы раз.
+                            </div>
+                            <div class="review-author-and-rate">
+                                <div class="review-author">Youliania</div>
+                                <div class="review-rate">
+                                    <div>★★★★★</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-content">
+                            <div class="review-text">Очень прикольная вывеска, антураж. Мне не очень понравилось внутри,
+                                так
+                                круто оформлено внешне, что ожидаешь большего. Вкусно. Я приходила на завтрак - не было
+                                никого, кроме меня. Кофе на вынос - 20%.
+                            </div>
+                            <div class="review-author-and-rate">
+                                <div class="review-author">Coco Chanel</div>
+                                <div class="review-rate">
+                                    <div>★★★☆☆</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="review-content">
+                            <div class="review-text">С приходом тёплых весенних деньков и открытием летних столиков так
+                                здорово начать уикенд именно здесь с позднего завтрака или раннего обеда со знаменитым
+                                супчиком фо-бо, или заехать на манго-шейк во время велопрогулки, или просто посидеть
+                                понаблюдать за прохожими и жизнью вокруг))
+                            </div>
+                            <div class="review-author-and-rate">
+                                <div class="review-author">AndreyKarman</div>
+                                <div class="review-rate">
+                                    <div>★★★★☆</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-content">
+                            <div class="review-text">Самым главным достоинством этого кафе для меня стало качество
+                                фруктов.
+                                Папайя, манго и ананасы имеют такой же вкус, как в тех южноазиатских краях, где они
+                                выросли.
+                                И в меню преобладают блюда именно этой кухни. Однозначно понравится поклонникам
+                                здорового
+                                питания. Цены вполне демократичны.
+                            </div>
+                            <div class="review-author-and-rate">
+                                <div class="review-author">Nata_Kuznetsova04</div>
+                                <div class="review-rate">
+                                    <div>★★★★★</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-content">
+                            <div class="review-text">Часто заходим на обед с супругой в это заведение, так как живем в
+                                соседнем доме. Фо-бо,нэмы,Спринг роллы. Приличные завтраки . Зал в подвале отлично
+                                подходит
+                                для онлайн трансляций.
+                            </div>
+                            <div class="review-author-and-rate">
+                                <div class="review-author">dexter7753111</div>
+                                <div class="review-rate">
+                                    <div>★★★★★</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="review-content">
+                            <div class="review-text">Просто находка для этого района! Можно позавтракать в любое время -
+                                сырники и яйца бенедикт не уступят дорогим кафе в центре.
+                                Очень красивая подача, в кафе постоянно присутствует владелица и трепетно следит за
+                                уровнем
+                                обслуживания.
+                                Все на высоком уровне, нам понравилось. Такое место - просто отдушина, вообще теперь не
+                                надо
+                                никуда ехать.
+                            </div>
+                            <div class="review-author-and-rate">
+                                <div class="review-author">foodgurumoscow</div>
+                                <div class="review-rate">
+                                    <div>★★★★★</div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="review-content">
+                            <div class="review-text">очень уютно, хорошая цена, свежий ремонт, и всякие приятные мелочи
+                            </div>
+                            <div class="review-author-and-rate">
+                                <div class="review-author">Fakure</div>
+                                <div class="review-rate">
+                                    <div>★★★★☆</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="review-content">
+                            <div class="review-text">Вообще очень понравилось, что почти все деревянное и приятно пахнет
+                                деревом - засыпаешь, как в деревне - полы, двери, кровати, шкафчики, у ресепшен -
+                                деревянный
+                                столик со стульями, эко-диванчик такой интересный =)
+                            </div>
+                            <div class="review-author-and-rate">
+                                <div class="review-author">invektiva</div>
+                                <div class="review-rate">
+                                    <div>★★★★★</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>                                              <!--ENDING OF REVIEWS-->
+
+            <div class="OUTLINE-border-bottom"></div>
+        </div>
+    </div>
+
+
+    <div class="OUTLINE-border-container" id="delivery">
+        <div class="OUTLINE-border">
+            <div class="OUTLINE-border-top"></div>
+            <div class="OUTLINE-center">
+                <p class="OUTLINE-p">Закажите прямо сейчас</p>
+                <p class="OUTLINE-p">Выполните следующие действия</p>
+
+
+                <div class="deliveries">
+                    <div class="delivery-container">
+                        <div class="delivery-text">
+                            <div class="delivery-text-big">Скачайте приложение</div>
+                            <div class="delivery-text-small">Введите Ваш адрес в приложение Uber Eats и закажите Ваши
+                                любимые блюда.
+                            </div>
+                        </div>
+                        <div class="delivery-gif">
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <div class="delivery-container">
+                        <div class="delivery-text">
+                            <div class="delivery-text-big">Закажите понравившиеся</div>
+                            <div class="delivery-text-small">После размещения заказа откройте ссылку для отслеживания
+                                доставки.
+                            </div>
+                        </div>
+                        <div class="delivery-gif">
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <div class="delivery-container">
+                        <div class="delivery-text">
+                            <div class="delivery-text-big">Получите доставку</div>
+                            <div class="delivery-text-small">Вы можете следить за доставкой по ссылке для отслеживания и
+                                получить заказ.
+                            </div>
+                        </div>
+                        <div class="delivery-gif">
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="OUTLINE-border-bottom"></div>
+        </div>
+    </div>
+</main>
+
+
+<div class="OUTLINE-border-container">
+    <div class="OUTLINE-border">
+        <div class="OUTLINE-border-top"></div>
+        <div class="OUTLINE-center">
+            <footer id="location">
+                <div class="footer-img"></div>
+                <div class="footer-text">
+                    <div>Мы находимся здесь!</div>
+                    <div>пл. Победы, 4а, Калининград, Калининградская обл., 236000</div>
+                </div>
+            </footer>
+
+            <div class="OUTLINE-border-bottom"></div>
+        </div>
+    </div>
+
+
+</div>
+<script src="js/1.slider.js"></script>
+<script src="js/3.advantages.js"></script>
+<script src="js/4.brand-new-menu-items.js"></script>
+<script src="js/5.reviews.js"></script>
+</body>
+</html>
