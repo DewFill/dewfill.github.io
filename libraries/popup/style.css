@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.window button {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em 1em;
+    border-radius: 3px;
+    background: rgb(64, 179, 199);
+    box-shadow: 0 -3px rgb(53, 167, 167) inset;
+    transition: 0.2s;
+}
+.window button:hover { background: rgb(53, 135, 167); }
+.window button:active{
+    background: rgb(33, 124, 147);
+    box-shadow: 0 3px rgb(33, 79, 147) inset;
+}
+.popupWindowGhostEventButton{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em 1em;
+    border-radius: 3px;
+    background: rgb(33, 130, 147);
+    box-shadow: 0 3px rgb(33, 115, 147) inset;
+    transition: 0.2s;
+}
+.window input{
+    padding: .8em 1em 1em;
+    border-radius: 3px;
+    background: rgba(199, 251, 255, 0.42);
+    box-shadow: 0 -3px rgba(53, 150, 167, 0.34) inset;
+}
